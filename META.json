@@ -58,14 +58,14 @@
    },
    "release_status" : "stable",
    "resources" : {
-      "homepage" : "https://github.com/ctriv/Ceph-RadosGW-Admin",
+      "homepage" : "https://github.com/ctriv/perl-Ceph-RadosGW-Admin",
       "repository" : {
          "type" : "git",
          "url" : "https://github.com/ctriv/perl-Ceph-RadosGW-Admin.git",
          "web" : "https://github.com/ctriv/perl-Ceph-RadosGW-Admin"
       }
    },
-   "version" : "0.1",
+   "version" : "0.2",
    "x_contributors" : [
       "Mark Ng <cpan@markng.co.uk>"
    ]

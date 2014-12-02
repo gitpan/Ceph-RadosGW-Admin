@@ -1,5 +1,5 @@
 package Ceph::RadosGW::Admin::User;
-$Ceph::RadosGW::Admin::User::VERSION = '0.1';
+$Ceph::RadosGW::Admin::User::VERSION = '0.2';
 use strict;
 use warnings;
 
@@ -11,7 +11,7 @@ Ceph::RadosGW::Admin::User - A Rados Gateway User
 
 =head1 VERSION
 
-version 0.1
+version 0.2
 
 =head1 DESCRIPTION
 
