@@ -1,5 +1,5 @@
 package Ceph::RadosGW::Admin::HTTPRequest;
-$Ceph::RadosGW::Admin::HTTPRequest::VERSION = '0.2';
+$Ceph::RadosGW::Admin::HTTPRequest::VERSION = '0.3';
 use Moose 0.85;
 use MooseX::StrictConstructor 0.16;
 use HTTP::Date;

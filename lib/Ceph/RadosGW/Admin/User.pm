@@ -1,9 +1,10 @@
 package Ceph::RadosGW::Admin::User;
-$Ceph::RadosGW::Admin::User::VERSION = '0.2';
+$Ceph::RadosGW::Admin::User::VERSION = '0.3';
 use strict;
 use warnings;
 
 use Moose;
+use namespace::autoclean;
 
 =head1 NAME
 
@@ -11,7 +12,7 @@ Ceph::RadosGW::Admin::User - A Rados Gateway User
 
 =head1 VERSION
 
-version 0.2
+version 0.3
 
 =head1 DESCRIPTION
 
@@ -29,6 +30,8 @@ has keys         => (is => 'rw', required => 1, isa => 'ArrayRef[HashRef[Str]]')
 has swift_keys   => (is => 'rw', required => 1, isa => 'ArrayRef[Str]');
 has caps         => (is => 'rw', required => 1, isa => 'ArrayRef[Str]');
 has _client      => (is => 'ro', required => 1, isa => 'Ceph::RadosGW::Admin');
+
+__PACKAGE__->meta->make_immutable;
 
 =head1 METHODS
 

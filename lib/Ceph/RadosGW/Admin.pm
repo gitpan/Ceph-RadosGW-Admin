@@ -1,5 +1,5 @@
 package Ceph::RadosGW::Admin;
-$Ceph::RadosGW::Admin::VERSION = '0.2';
+$Ceph::RadosGW::Admin::VERSION = '0.3';
 use strict;
 use warnings;
 
@@ -10,7 +10,7 @@ use Moose;
 use URI;
 use URI::QueryParam;
 use Ceph::RadosGW::Admin::User;
-
+use namespace::autoclean;
 
 =head1 NAME
 
@@ -18,7 +18,7 @@ Ceph::RadosGW::Admin - Bindings for the rados gateway admin api.
 
 =head1 VERSION
 
-version 0.2
+version 0.3
 
 =head1 SYNOPSIS
 	
@@ -68,6 +68,7 @@ has useragent => (
 	builder => 'build_useragent',
 );
 
+__PACKAGE__->meta->make_immutable;
 
 =head1 METHODS
 

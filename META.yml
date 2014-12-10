@@ -14,7 +14,7 @@ build_requires:
 configure_requires:
   ExtUtils::MakeMaker: '0'
 dynamic_config: 0
-generated_by: 'Dist::Zilla version 5.025, CPAN::Meta::Converter version 2.142690'
+generated_by: 'Dist::Zilla version 5.027, CPAN::Meta::Converter version 2.143240'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -34,11 +34,12 @@ requires:
   URI: '0'
   URI::Escape: '0'
   URI::QueryParam: '0'
+  namespace::autoclean: '0'
   strict: '0'
   warnings: '0'
 resources:
   homepage: https://github.com/ctriv/perl-Ceph-RadosGW-Admin
   repository: https://github.com/ctriv/perl-Ceph-RadosGW-Admin.git
-version: '0.2'
+version: '0.3'
 x_contributors:
   - 'Mark Ng <cpan@markng.co.uk>'
