@@ -1,5 +1,5 @@
 package Ceph::RadosGW::Admin;
-$Ceph::RadosGW::Admin::VERSION = '0.3';
+$Ceph::RadosGW::Admin::VERSION = '0.4';
 use strict;
 use warnings;
 
@@ -18,7 +18,7 @@ Ceph::RadosGW::Admin - Bindings for the rados gateway admin api.
 
 =head1 VERSION
 
-version 0.3
+version 0.4
 
 =head1 SYNOPSIS
 	

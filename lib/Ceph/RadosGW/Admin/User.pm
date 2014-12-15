@@ -1,5 +1,5 @@
 package Ceph::RadosGW::Admin::User;
-$Ceph::RadosGW::Admin::User::VERSION = '0.3';
+$Ceph::RadosGW::Admin::User::VERSION = '0.4';
 use strict;
 use warnings;
 
@@ -12,7 +12,7 @@ Ceph::RadosGW::Admin::User - A Rados Gateway User
 
 =head1 VERSION
 
-version 0.3
+version 0.4
 
 =head1 DESCRIPTION
 
@@ -44,9 +44,9 @@ Dies on failure.
 =cut
 
 sub delete {
-	my ($self) = @_;
+	my ($self, %args) = @_;
 	
-	$self->_request(DELETE => 'user');
+	$self->_request(DELETE => 'user', %args);
 	
 	return 1;
 }

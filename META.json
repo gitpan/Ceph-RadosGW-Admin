@@ -4,7 +4,7 @@
       "Chris Reinhardt <crein@cpan.org>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Dist::Zilla version 5.027, CPAN::Meta::Converter version 2.143240",
+   "generated_by" : "Dist::Zilla version 5.029, CPAN::Meta::Converter version 2.143240",
    "license" : [
       "perl_5"
    ],
@@ -66,7 +66,7 @@
          "web" : "https://github.com/ctriv/perl-Ceph-RadosGW-Admin"
       }
    },
-   "version" : "0.3",
+   "version" : "0.4",
    "x_contributors" : [
       "Mark Ng <cpan@markng.co.uk>"
    ]
